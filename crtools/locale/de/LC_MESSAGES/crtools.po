@@ -119,7 +119,7 @@ msgstr "Keine Kriege im Kriegslog"
 
 #: crtools/config.py:147
 msgid "State"
-msgstr "Staat"
+msgstr "Status"
 
 #: crtools/config.py:148
 msgid "Collection Day End"
@@ -143,7 +143,7 @@ msgstr "Siege"
 
 #: crtools/config.py:153
 msgid "Cards Earned"
-msgstr "Anzahl verdienter Karten"
+msgstr "Anzahl gesammelter Karten"
 
 #: crtools/config.py:154 crtools/config.py:259
 msgid "Member"

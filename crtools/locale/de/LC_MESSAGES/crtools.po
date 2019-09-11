@@ -447,7 +447,7 @@ msgstr "Spenden"
 msgid ""
 "Members with a <strong class=\"bad\">score below 0</strong> will be "
 "recommended for kicking or demotion."
-msgstr "Mitglieder mit einer Punktzahl <strong class=\"bad\">unter 0</strong> werden zum Kick bzw. Herabstufung vorgeschlagen"
+msgstr "Mitglieder mit einer Punktzahl <strong class=\"bad\">unter 0</strong> werden zum Kick bzw. Degradierung vorgeschlagen"
 
 #: crtools/config.py:234
 msgid ""
@@ -486,7 +486,7 @@ msgstr "<strong>{name}</strong> wegen <strong class=\"bad\">{score}</strong> kic
 
 #: crtools/config.py:241
 msgid "Demote <strong>{name}</strong> <strong class=\"bad\">{score}</strong>"
-msgstr "strong>{name}</strong> wegen <strong class=\"bad\">{score}</strong> degradieren."
+msgstr "<strong>{name}</strong> wegen <strong class=\"bad\">{score} Punkten</strong> degradieren."
 
 #: crtools/config.py:242
 msgid ""
@@ -499,7 +499,7 @@ msgstr "<strong>{name}</strong> zum <strong>Ältesten</strong> befördern, wegen
 msgid ""
 "Score is made of two components: <strong>donation score</strong> and "
 "<strong>war participation score</strong>."
-msgstr "Die Punkte werden aus zwei Komponenten berechnet: strong>Punkte durch Spenden</strong> und "
+msgstr "Die Punkte werden aus zwei Komponenten berechnet: <strong>Punkte durch Spenden</strong> und "
 "<strong>Punkte durch Kriegsteilnahme</strong>."
 
 #: crtools/config.py:245
@@ -512,10 +512,10 @@ msgid ""
 "day</strong>, on average. If you make more, you will gain points. If you make"
 " fewer, you will lose points. If you have zero, you will be penalized <strong"
 " class=\"bad\">{donations_zero} points</strong>"
-msgstr "Es wird vorausgesetzt, dass <strong>{min_donations_daily} Karten pro "
-"Tag</strong>, im durschnitt gespendet werden sollten. Wenn du mehr spendest, kannst du dir Punkte verdienen. Wenn du weniger spendest"
-" , verlierst du Punkte. Wenn du nicht spendest, wirst du bestraft. <strong"
-" class=\"bad\">{donations_zero} points</strong>"
+msgstr "Es wird vorausgesetzt, dass von dir durchschnittlich <strong>{min_donations_daily} Karten pro "
+"Tag</strong> gespendet werden sollten. Wenn du mehr spendest, kannst du dir Punkte verdienen. Wenn du weniger spendest"
+", verlierst du Punkte. Wenn du nicht spendest, wirst du bestraft mit "
+" <strong class=\"bad\">{donations_zero} Punkten</strong>."
 
 #: crtools/config.py:248
 msgid "War Participation Score"
@@ -694,7 +694,7 @@ msgid ""
 "This content is not affiliated with, endorsed, sponsored, or specifically "
 "approved by Supercell and Supercell is not responsible for it."
 msgstr "Dieser Inhalt ist nicht zugehörig, befürwortet, oder spezifisch genehmigt "
-" von Supercell und supercell ist dafür nicht verantwortlich."
+" von Supercell und Supercell ist dafür nicht verantwortlich."
 
 #: crtools/config.py:299
 msgid "For more information see Supercell's Fan Content Policy."
